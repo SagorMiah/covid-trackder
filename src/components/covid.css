@@ -1,0 +1,50 @@
+.app__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app__stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+@media (max-width: 800px) {
+  .app {
+    flex-direction: column;
+  }
+}
+
+.table {
+  margin-top: 20px;
+  overflow: scroll;
+  height: 400px;
+  color: #6a5d5d;
+}
+
+.table tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table td {
+  padding: 0.5rem;
+}
+
+.table tr:nth-of-type(odd) {
+  background-color: #f3f2f8;
+}
+
+.infobox__selected {
+  border-top: 5px solid greenyellow;
+}
+
+.infobox__isRed {
+  border-color: red;
+}
